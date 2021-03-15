@@ -90,42 +90,42 @@ Partial Class Form1
         Me.txtName.Location = New System.Drawing.Point(118, 6)
         Me.txtName.Name = "txtName"
         Me.txtName.Size = New System.Drawing.Size(100, 20)
-        Me.txtName.TabIndex = 5
+        Me.txtName.TabIndex = 0
         '
         'txtEmail
         '
         Me.txtEmail.Location = New System.Drawing.Point(118, 32)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.Size = New System.Drawing.Size(100, 20)
-        Me.txtEmail.TabIndex = 6
+        Me.txtEmail.TabIndex = 1
         '
         'txtRAddress
         '
         Me.txtRAddress.Location = New System.Drawing.Point(117, 110)
         Me.txtRAddress.Name = "txtRAddress"
         Me.txtRAddress.Size = New System.Drawing.Size(100, 20)
-        Me.txtRAddress.TabIndex = 7
+        Me.txtRAddress.TabIndex = 4
         '
         'txtPhone
         '
         Me.txtPhone.Location = New System.Drawing.Point(118, 58)
         Me.txtPhone.Name = "txtPhone"
         Me.txtPhone.Size = New System.Drawing.Size(100, 20)
-        Me.txtPhone.TabIndex = 8
+        Me.txtPhone.TabIndex = 2
         '
         'txtRName
         '
         Me.txtRName.Location = New System.Drawing.Point(118, 84)
         Me.txtRName.Name = "txtRName"
         Me.txtRName.Size = New System.Drawing.Size(100, 20)
-        Me.txtRName.TabIndex = 9
+        Me.txtRName.TabIndex = 3
         '
         'txtArr
         '
         Me.txtArr.Location = New System.Drawing.Point(117, 136)
         Me.txtArr.Name = "txtArr"
         Me.txtArr.Size = New System.Drawing.Size(100, 20)
-        Me.txtArr.TabIndex = 10
+        Me.txtArr.TabIndex = 5
         '
         'Label8
         '
@@ -140,7 +140,7 @@ Partial Class Form1
         Me.btnOrder.Location = New System.Drawing.Point(117, 189)
         Me.btnOrder.Name = "btnOrder"
         Me.btnOrder.Size = New System.Drawing.Size(99, 29)
-        Me.btnOrder.TabIndex = 16
+        Me.btnOrder.TabIndex = 7
         Me.btnOrder.Text = "Order"
         Me.btnOrder.UseVisualStyleBackColor = True
         '
@@ -167,13 +167,13 @@ Partial Class Form1
         Me.txtPayment.Location = New System.Drawing.Point(117, 163)
         Me.txtPayment.Name = "txtPayment"
         Me.txtPayment.Size = New System.Drawing.Size(100, 20)
-        Me.txtPayment.TabIndex = 20
+        Me.txtPayment.TabIndex = 6
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(483, 372)
+        Me.ClientSize = New System.Drawing.Size(230, 246)
         Me.Controls.Add(Me.txtPayment)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label7)

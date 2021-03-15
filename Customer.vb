@@ -1,19 +1,55 @@
 ﻿Public Class Customer
-    Public Name, Email As String
-    Public AmountPaid, PhoneNumber As Double
+    Private strName, strEmail As String
+    Private dblAmountPaid, dblPhoneNumber As Double
+
+    Public Property Name As String
+        Get
+            Return strName
+        End Get
+        Set(value As String)
+            strName = Name
+        End Set
+    End Property
+
+    Public Property Email As String
+        Get
+            Return strEmail
+        End Get
+        Set(value As String)
+            strEmail = value
+        End Set
+    End Property
+
+    Public Property AmountPaid As Double
+        Get
+            Return dblAmountPaid
+        End Get
+        Set(value As Double)
+            dblAmountPaid = value
+        End Set
+    End Property
+
+    Public Property PhoneNumber As Double
+        Get
+            Return dblPhoneNumber
+        End Get
+        Set(value As Double)
+            dblPhoneNumber = value
+        End Set
+    End Property
 
     Public Sub New()
-        Name = ""
-        Email = ""
-        PhoneNumber = 0
-        AmountPaid = 0
+        strName = ""
+        strEmail = ""
+        dblPhoneNumber = 0
+        dblAmountPaid = 0
     End Sub
 
     Public Sub New(strName As String, strEmail As String, dblPhone As Double, dblPaid As Double)
-        Name = strName
-        Email = strEmail
-        AmountPaid = dblPaid
-        PhoneNumber = dblPhone
+        Me.strName = strName
+        Me.strEmail = strEmail
+        dblAmountPaid = dblPaid
+        dblPhoneNumber = dblPhone
     End Sub
 
 
